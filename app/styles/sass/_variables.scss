@@ -1,0 +1,65 @@
+$navy-blue:                   #003171 !default;
+$steel-blue:                  #4B77BE !default;
+$lightgray-dark:              #E6E9ED !default;
+$white:                       #FFFFFF !default;
+$default-font-size:           13px !default;
+
+
+
+// HEADER
+$header-bg:                         $navy-blue;
+$header-bg-active:                  $steel-blue;
+$header-brand:                      $white;
+
+
+//LEFT MENU
+$left-side-bar-color:               $navy-blue;
+$left-side-bar-color-hover:         $lightgray-dark;
+$left-side-bar-font-color:          $steel-blue;
+$left-side-bar-font-color-active:   $white;
+$font-size-menu-item:               $default-font-size;
+$font-size-menu-header:             $default-font-size;
+
+//FORM ADD INFO
+$panel-top-bg:                      $lightgray-dark;
+$panel-top-bg-active:               $navy-blue;
+$panel-top-font-color-active:       $white;
+$panel-top-btn-bg:                  $navy-blue;
+$panel-top-btn-bg-hover:            $steel-blue;
+
+$panel-form-attach:                 $navy-blue;
+$panel-form-attach-hover:           $steel-blue;
+
+//RECOMMENDED
+
+$panel-rec-text:                    $white !default;
+$panel-rec-heading-bg:              #DA4453 !default;
+$panel-rec-border:                  darken($panel-rec-heading-bg, 10%) !default;
+$font-size-recommended:             $default-font-size;
+
+
+//PROFILE
+$font-size-profile:                 $default-font-size;
+
+//PANEL_POST
+
+$panel-post-font-size:              $default-font-size;
+$panel-post-font-size-placeholder:  $default-font-size;
+$panel-post-font-size-input:        $default-font-size;
+$panel-post-font-size-btn:          $default-font-size;
+$panel-post-size-glyph:             $default-font-size + 3;
+
+
+
+//FEED
+$font-size-feed-item:               $default-font-size;
+$like:                              #5674A1;
+$ilike:                             #B1BED2;
+
+//LIST MESSAGES
+
+$font-size-user:                    $default-font-size;
+$font-size-lasttext:                $default-font-size;
+$font-size-item-msg-body:           $default-font-size;
+
+

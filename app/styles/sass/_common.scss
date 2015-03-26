@@ -1,0 +1,21 @@
+body {
+  min-width: 324px;
+  overflow: scroll;
+}
+
+.show {
+  display: block !important;
+}
+
+.hide {
+  position: static;
+  display: none;
+}
+
+.page-layout {
+  margin-top: 20px;
+}
+
+.disable {
+  display: none;
+}

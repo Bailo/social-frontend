@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Social Frontend</title>
+    <link rel="stylesheet" href="styles/main.css"/>
+    <!--<link rel="stylesheet" href="../app/styles/sass/main.css"/>-->
+
+</head>
+<body>
+
+<header>
+    <div class="row">
+        <nav class="navbar" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <span class="glyphicon glyphicon-search navbar-toggle search-toggle" data-toggle="collapse"
+                          data-target="#bs-example-navbar-collapse-4"></span>
+                    <button type="button" class="navbar-toggle menu-toggle" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-5">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">coloris.com</a>
+                    <a class="navbar-link" href="#"><span class="glyphicon glyphicon-bell"></span></a>
+
+                </div>
+                <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-4" >
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-search search-only">
+                            <span class="search-icon glyphicon glyphicon-search"></span>
+                            <input class="form-control search-query">
+                        </div>
+                    </form>
+                </div>
+                <div class="navbar-collapse collapse collapse-menu" id="bs-example-navbar-collapse-5">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<div class="page-layout container">
+<aside class="col-lg-3 col-md-3 col-sm-4 left-side-bar">
+    <div class="current-user-label">
+        <div class="user-pic pull-left"></div>
+        <div class="user-body">
+            <h4>Чарли Харпер</h4>
+            <p>Software Engineer</p>
+        </div>
+    </div>
+
+    <div class="main-menu">
+        <ul class="nav nav-pills nav-stacked main-nav">
+            <li id="href-profile"><a href="#profile"><span class="glyphicon glyphicon-user"></span> Профиль</a></li>
+            <li id="href-dialogs"><a href="#dialogs"><span class="glyphicon glyphicon-envelope"></span> Сообщения
+            <span
+                    class="badge badge-danger pull-right">20</span></a></li>
+            <li id="href-feed"><a href="#"><span class="glyphicon glyphicon-list-alt"></span> Лента
+                новостей</a></li>
+        </ul>
+
+        <ul class="nav nav-pills nav-stacked info-nav">
+            <li class="list-header">Полезная информация</li>
+            <li class="separate"></li>
+            <li><a href="#"><span class="glyphicon glyphicon-road"></span> С чего начать</a></li>
+            <li id="href-files"><a href="#files"><span class="glyphicon glyphicon-paperclip"></span> Файлы <span
+                    class="badge badge-default pull-right">7</span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-dashboard"></span> График работы</a></li>
+        </ul>
+
+        <ul class="nav nav-pills nav-stacked group-nav">
+
+            <li class="list-header">Группы</li>
+            <li class="separate"></li>
+            <li><a href="#"><span class="glyphicon glyphicon-hand-right"></span> ТП</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-hand-right"></span> Продажи</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-hand-right"></span> Маркетинг и PR</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-hand-right"></span> Банк идей</a></li>
+            <li id="href-groups"><a href="#groups"><span class="glyphicon glyphicon-list"></span> Все группы</a></li>
+        </ul>
+    </div>
+
+</aside>
+
+
+
+
+
+<section class="page-body col-lg-6 col-md-6 col-sm-8 col-xs-12" id="central-swap">
+
+
+</section>
+
+
+
+
+<aside class="right-side-bar col-lg-3 col-md-3">
+    <div class="panel panel-rec">
+        <div class="panel-heading">
+            <h3 class="panel-title">Рекомендуемые люди</h3>
+        </div>
+        <div class="panel-body">
+            <div class="item">
+                <div class="item-pic pull-left"></div>
+                <div class="item-body">
+                    <a href="#" class="link-to">Ярослав Сапроненко</a>
+                    <a href="#" class="start-to">Подписаться</a>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="item-pic pull-left"></div>
+                <div class="item-body">
+                    <a href="#" class="link-to">Дмитрий Кашменский </a>
+                    <a href="#" class="start-to">Подписаться</a>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-pic pull-left"></div>
+                <div class="item-body">
+                    <a href="#" class="link-to">Станислав Загурский</a>
+                    <a href="#" class="start-to">Подписаться</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-rec recommended-groups">
+        <div class="panel-heading">
+            <h3 class="panel-title">Рекомендуемые группы</h3>
+        </div>
+        <div class="panel-body">
+            <div class="item">
+                <div class="item-pic pull-left"></div>
+                <div class="item-body">
+                    <a href="#" class="link-to">Продажи</a>
+                    <a href="#" class="start-to">Вступить в группу</a>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="item-pic pull-left"></div>
+                <div class="item-body">
+                    <a href="#" class="link-to">Маркетинг</a>
+                    <a href="#" class="start-to">Вступить в группу</a>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-pic pull-left"></div>
+                <div class="item-body">
+                    <a href="#" class="link-to">Банк идей</a>
+                    <a href="#" class="start-to">Вступить в группу</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="panel panel-rec">
+        <div class="panel-heading">
+            <h3 class="panel-title">Дни рождения коллег</h3>
+        </div>
+        <div class="panel-body">Panel content</div>
+    </div>
+</aside>
+</div>
+
+
+
+<script src="components/requirejs/require.js" data-main="js/config.js"></script>
+
+
+
+
+
+</body>
+</html>
